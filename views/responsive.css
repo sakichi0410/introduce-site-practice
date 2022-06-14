@@ -1,0 +1,73 @@
+/*レスポンシブデザイン*/
+
+/*タブレットサイズ*/
+@media (max-width: 1400px) {
+
+    .container{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .wrapper-top img {
+        width: 30%;
+    }
+
+    .easy-prf{
+        margin: 30px 0;
+    }
+
+    footer{
+        width: 100%;
+        padding-bottom: 20px;
+    
+    }
+
+    footer div {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+
+}
+
+/*スマホサイズ*/
+@media (max-width: 670px) {
+
+    
+    header h1 {
+        font-size: 20px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .burger-btn {
+        display: block;
+    }
+
+    .wrapper-top img {
+        width: 50%;
+    }
+
+    .easy-prf {
+        width: 100%;
+    }
+
+    #twitter-icon img,#facebook-icon img {
+        width: 40px;
+    }
+
+
+    footer {
+        text-align: center;
+        width: 100%;
+    }
+
+    .QandA{
+        margin: 20px auto;
+    }
+
+    
+
+}

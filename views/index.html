@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロフィールサイト</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--レスポンシブデザイン適用の型-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--レスポンシブ専用ファイル-->
+    <link rel ="stylesheet" href="responsive.css">
+
+    <!--fontのためのURL-->
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+    <!--jQuery読み込みURL-->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+    
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="top-jamp">プロフィールサイト</h1>
+            
+            <div class="header-list">
+                <ul>
+                    <li>ニュース</li>
+                    <li>経歴</li>
+                    <li><a href="index2.html">趣味</a></li>
+                </ul>
+            </div>
+        <!--ハンバーガーメニュー-->
+            <!--ボタン↓spanがメニューの線を付けるコード-->
+           <bottom class="burger-btn">
+                <span class="bar bar_top"></span>
+                <span class="bar bar_mid"></span>
+                <span class="bar bar_bottom"></span>
+           </bottom>
+           <!--ハンバーガーメニューのメニューリスト-->
+           <div class="nav-wrapper">
+            <nav class="header-nav">
+               <ul class="nav-list">
+                   <li class="nav-item"><a href="#">ニュース</a></li>
+                   <li class="nav-item"><a href="#">経歴</a></li>
+                   <li class="nav-item"><a href="index2.html">趣味</a></li>
+               </ul>
+            </nav>
+           </div>
+        <!--ここまでがハンバーガーメニューのコード-->
+
+        </div>
+    </header>
+
+
+
+    
+    <!--画像画面-->
+    <div class="container">
+        <div class="wrapper-top">
+            
+            <img src="../images/top_copy.png">
+        </div>
+    
+    <!--簡易プロフィール-->
+      <div class="easy-prf">
+        <ul>
+            <li><p>よろしくお願いします</p></li>
+            <li>名前：山下早稀</li>
+            <li>年齢：23歳</li>
+            <li>出身：神奈川県</li>
+            <li>
+                <a href="#" id="twitter-icon">
+                    <img src="../images/copy_icon_tw.png">
+                </a>
+                <a href="#" id="facebook-icon">
+                    <img src="../images/FACEBOOK風のアイコン素材 その3.png">
+                </a>
+            </li>
+        </ul>
+       </div>
+       <div class="clear"></div>
+    </div>
+
+    
+    <div class="container">
+      <div class="QandA">
+       <h2>Q & A</h2>
+        <ul>
+            <li class="question-list">
+                <h3>Q1: 出身大学は？<span>+</span></h3>
+                    <div class="answer">
+                        <p>明治学院大学</p>
+                    </div> 
+            </li>
+
+            <li class="question-list"> 
+                <h3>Q2: アルバイト経験は？<span>+</span></h3> 
+                <div class="answer"> 
+                    <p>学生時代は有隣堂でアルバイト</p> 
+                </div>
+            </li>
+
+            <li class="question-list"> 
+                 <h3>Q3: 専攻学科は？<span>+</span></h3>
+                    <div class="answer">
+                        <p>経済学部経営学科</p>
+                    </div>
+            </li>
+
+        </ul>
+     </div>  
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div>制作者</div>
+            <div>yamashita</div>
+        </div>
+
+    </footer>
+
+
+</body>
+</html>

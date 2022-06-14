@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>趣味リンク</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--レスポンシブデザイン適用の型-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--レスポンシブ専用ファイル-->
+    <link rel ="stylesheet" href="responsive.css">
+
+    <!--fontのためのURL-->
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
+    <!--jQuery読み込みURL-->
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+    
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="top-jamp"><a href="index.html">プロフィールサイト</a></h1>
+            
+            <div class="header-list">
+                <ul>
+                    <li>ニュース</li>
+                    <li>経歴</li>
+                    <li>趣味</li>
+                </ul>
+            </div>
+        <!--ハンバーガーメニュー-->
+            <!--ボタン↓spanがメニューの線を付けるコード-->
+           <bottom class="burger-btn">
+                <span class="bar bar_top"></span>
+                <span class="bar bar_mid"></span>
+                <span class="bar bar_bottom"></span>
+           </bottom>
+           <!--ハンバーガーメニューのメニューリスト-->
+           <div class="nav-wrapper">
+            <nav class="header-nav">
+               <ul class="nav-list">
+                   <li class="nav-item"><a href="#">ニュース</a></li>
+                   <li class="nav-item"><a href="#">経歴</a></li>
+                   <li class="nav-item"><a href="#">趣味</a></li>
+               </ul>
+            </nav>
+           </div>
+        <!--ここまでがハンバーガーメニューのコード-->
+
+        </div>
+    </header>
+
+        <div class="container">
+            <div class="like-wrapper">
+                    <h2>1.写真撮影</h2>
+                <ul class="slides">
+                    <li class="slide active"><img src="../images/onepiece01_luffy.png"></li>
+                    <li class="slide"><img src="../images/onepiece02_zoro.png"></li>
+                    <li class="slide"><img src="../images/onepiece20_santaisyou.png"></li>
+                </ul>
+
+                <!--切り替えボタン-->
+                <div class="btn-wrapper">
+                    <div class="index-btn">1</div>
+                    <div class="index-btn">2</div>
+                    <div class="index-btn">3</div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="art-wrapper">
+                <h2>2.イラスト制作</h2>
+
+                <ul class="slides">
+                    <li class="slide-art action"><img src="../images/onepiece01_luffy.png"></li>
+                    <li class="slide-art"><img src="../images/onepiece02_zoro.png"></li>
+                    <li class="slide-art"><img src="../images/onepiece20_santaisyou.png"></li>
+                    <li class="slide-art"><img src="../images/onepiece03_nami.png"></li>
+                </ul>
+
+                    <div class="change-btn-wrappaer">
+                        <p class="change-btn prev-btn">←前へ</p>
+                        <p class="change-btn next-btn">次へ→</p>
+                    </div>
+
+
+            </div>
+        </div>
+ <div class="container">
+    <div class="top-back" id="top-back-id">TOP↑</div>
+ </div>
+
+<footer>
+    <div class="container">
+        <div>制作者</div>
+        <div>yamashita</div>
+    </div>
+    
+</footer>
+
+</body>
+</html>
